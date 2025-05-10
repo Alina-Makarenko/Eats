@@ -3,36 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Eats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/main.min.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <a href="./index.html" class="header__logo">
         <svg class="header__icon">
           <use href="./image/symbol-defs.svg#icon-eats"></use>
         </svg>
       </a>
       <ul class="header__list">
-        <li><a href="" class="header__link">Home</a></li>
-        <li><a href="" class="header__link">Product</a></li>
-        <li><a href="" class="header__link">Faq</a></li>
-        <li><a href="" class="header__link">Contact</a></li>
+        <li class="header__item"><a href="" class="header__link">Home</a></li>
+        <li class="header__item"><a href="" class="header__link">Product</a></li>
+        <li class="header__item"><a href="" class="header__link">Faq</a></li>
+        <li class="header__item"><a href="" class="header__link">Contact</a></li>
       </ul>
     </header>
     <main>
-      <!-- Restaurant app -->
-      <section class="menu">
-        <h3 class="menu__subtitle">Restaurant app</h3>
-        <h2 class="menu__title">
+      <!-- Hero -->
+      <section class="hero">
+        <h3 class="hero__subtitle">Restaurant app</h3>
+        <h2 class="hero__title">
           Why stay hungry when you can order form Eats
         </h2>
-        <p class="menu__text">Order in exchange for hunger</p>
-        <ul class="menu__list">
-          <li class="menu__item">
-            <button class="menu__btn">Delivery</button>
+        <p class="hero__text">Order in exchange for hunger</p>
+        <ul class="hero__list">
+          <li class="hero__item">
+            <button class="hero__btn">Delivery</button>
           </li>
-          <li class="menu__item"><button class="menu__btn">Menu</button></li>
+          <li class="hero__item"><button class="hero__btn">Menu</button></li>
         </ul>
       </section>
       <!-- How the app works -->
@@ -77,7 +84,6 @@
           <use href="./image/symbol-defs.svg#icon-eats"></use>
         </svg>
       </a>
-
     </footer>
   </body>
 </html>

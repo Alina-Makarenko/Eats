@@ -1,0 +1,34 @@
+.header {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  background-color: $text-color;
+
+  &__icon {
+    width: 150px;
+    height: 65.214px;
+    flex-shrink: 0;
+    margin-right: 465px;
+  }
+  &__list {
+    display: flex;
+    gap: 94px;
+  }
+  &__link {
+    color: $link-color;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1) ;
+
+    &:hover{
+        color: $accent-color;
+    }
+  }
+}
